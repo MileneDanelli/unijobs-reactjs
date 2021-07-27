@@ -35,9 +35,10 @@ const Produto = () => {
         <img src={produto.miniatura} alt="produto" />
       </div>
       <div>
-        <h1>{produto.titulo}</h1>
+        <h1 className={styles.titulo}>{produto.titulo}</h1>
         <span className={styles.preco}>R$ {produto.preco}</span>
         <p className={styles.descricao}>{produto.descricao}</p>
+        <p className={styles.descricao}>Prazo: {produto.prazo} dias.</p>
       </div>
     </section>
   );

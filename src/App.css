@@ -28,10 +28,6 @@ h1 {
   flex: 1;
 }
 
-.mainContainer {
-  margin-top: 2rem;
-}
-
 .animeLeft {
   transform: translateX(-20px);
   opacity: 0;
