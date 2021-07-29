@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Courgette&family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&display=swap');
+
+.anunciante {
+  display: list-item;
+  list-style: none;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.anunciante p {
+  font-family: 'Caladea', serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 1.2;
+}
 
 .produto {
   display: grid;
@@ -14,7 +28,7 @@
 }
 
 .titulo {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Caladea', serif;
   font-size: 30px;
   line-height: 1.2;
 }
@@ -24,12 +38,36 @@
   background: #91fb5d;
   color: #017e01;
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 4px;
 }
 
 .descricao {
-  font-family: 'Cinzel', serif;
+  font-family: 'Caladea', serif;
   font-size: 30px;
   line-height: 1.2;
+}
+
+.contato {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  background: #91fb5e;
+  color: #017e01;
+  width: 20rem;
+  padding: 0.8rem 2rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+}
+
+.contato:hover,
+.contato:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px green, 0 0 0 4px green;
+}
+
+.contato input {
+  background: #91fb5d;
 }

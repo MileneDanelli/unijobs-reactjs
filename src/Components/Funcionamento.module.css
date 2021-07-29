@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&display=swap');
+
+.titulo {
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'Caladea', serif;
+  color: #0e346a;
+  display: flex;
+  margin: 0 auto;
+}
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+  max-width: 60rem;
+  margin: 10rem auto;
+}
+
+.sobre img {
+  box-shadow: 0 0 2rem #008b8b;
+  border-radius: 20px;
+}

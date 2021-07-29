@@ -1,6 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&display=swap');
+
 .sobre {
-  display: flex;
-  flex-direction: column;
-  max-width: 80rem;
+  display: block;
+  gap: 10rem;
+  max-width: 60rem;
+  margin: 10rem auto;
+}
+
+.sobre h1 {
+  font-size: 35px;
+  font-family: 'Caladea', serif;
+}
+
+.sobre p {
+  font-size: 35px;
+  font-family: 'Caladea', serif;
+}
+
+.container {
+  display: grid;
+  width: 700px;
+  height: 400px;
+  padding: 0 1rem;
   margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.card {
+  background: #fff;
+  width: 700px;
+  height: 400px;
+  word-break: break-word;
+  box-shadow: 0 0 1rem #008b8b;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+.descricao h1 {
+  font-family: 'Caladea', serif;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+.descricao p {
+  font-family: 'Caladea', serif;
+  font-weight: 100;
+  padding-left: 2rem;
+  padding-right: 5rem;
 }

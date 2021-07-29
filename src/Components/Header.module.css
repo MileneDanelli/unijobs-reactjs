@@ -4,7 +4,7 @@
   font-family: 'Changa One', cursive;
   color: black;
   box-sizing: border-box;
-  background: #ff69b4;
+  background: #00ced1;
   padding: 0 35px;
   height: 100px;
   flex-wrap: wrap;
@@ -25,12 +25,12 @@
   left: 0;
 }
 
-.titulo2 {
+/* .titulo2 {
   padding-top: 2rem;
   padding-right: 4rem;
   position: absolute;
   right: 0;
-}
+} */
 
 .link {
   display: block;

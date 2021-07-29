@@ -6,6 +6,8 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Contato from './Components/Contato';
 import Produto from './Components/Produto';
+import Sobre from './Components/Sobre';
+import Funcionamento from './Components/Funcionamento';
 
 function App() {
   return (
@@ -17,9 +19,14 @@ function App() {
             <Route path="/" element={<Produtos />} />
             <Route path="produto/:id" element={<Produto />} />
             <Route path="contato" element={<Contato />} />
+            <Route path="sobre" element={<Sobre />} />
+            <Route path="funcionamento" element={<Funcionamento />} />
           </Routes>
         </div>
         <Footer />
+        <h1 className="direitos">
+          © 2021 UniJobs - Todos os direitos reservados
+        </h1>
       </BrowserRouter>
     </div>
   );

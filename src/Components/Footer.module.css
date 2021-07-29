@@ -1,9 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&display=swap');
+
 .footer {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
   padding-top: 1rem;
-  box-sizing: border-box;
-  background: #ff69b4;
+  background: white;
   margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+}
+
+.midias a {
+  margin: 1rem;
+}
+
+.midias a:hover {
+  color: #00ced1;
+}
+
+.escrita {
+  max-width: 30rem;
+  font-size: 25px;
+  font-family: 'Caladea', serif;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 0.8rem 2rem;
+}
+
+.escrita:hover {
+  color: #00ced1;
 }
