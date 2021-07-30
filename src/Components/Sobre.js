@@ -29,29 +29,35 @@ const Sobre = () => {
           className={styles.card}
         >
           <div className={styles.card}>
-            <img
-              src="https://avatars.githubusercontent.com/u/42577886?s=400&u=602d8401414641ab5207bbd771bb733d70ee31bb&v=4"
-              alt="Milene Danelli"
-            />
-            <h1>Desenvolvedora Web Full Stack</h1>
-            <p>
-              Desenvolvedora Web Full Stack na Empresa Friella e acadêmica de
-              Engenharia de Software na UniAmérica.
-            </p>
-            <a
-              href="https://github.com/MileneDanelli"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub /> Github
-            </a>
-            <a
-              href="https://www.linkedin.com/in/milene-danelli-4a2480162/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin /> LinkedIn
-            </a>
+            <div className={styles.content}>
+              <img
+                src="https://avatars.githubusercontent.com/u/42577886?s=400&u=602d8401414641ab5207bbd771bb733d70ee31bb&v=4"
+                alt="Milene Danelli"
+              />
+              <div>
+                <h1>Desenvolvedora Web Full Stack</h1>
+                <p>
+                  Desenvolvedora Web Full Stack na Empresa Friella e acadêmica
+                  de Engenharia de Software na UniAmérica.
+                </p>
+                <div className={styles.links}>
+                  <a
+                    href="https://github.com/MileneDanelli"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub /> Github
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/milene-danelli-4a2480162/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedin /> LinkedIn
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </AutoplaySlider>
       </section>

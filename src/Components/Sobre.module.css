@@ -34,20 +34,37 @@
   box-shadow: 0 0 1rem #008b8b;
 }
 
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5rem;
+}
+
 .card img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
-.descricao h1 {
+.content h1 {
+  margin-top: 0px;
   font-family: 'Caladea', serif;
-  padding-left: 2rem;
-  padding-right: 5rem;
+  font-size: 2rem;
 }
 
-.descricao p {
+.links {
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.links a:hover {
+  color: #008b8b;
+}
+
+.content p {
   font-family: 'Caladea', serif;
   font-weight: 100;
-  padding-left: 2rem;
-  padding-right: 5rem;
+  font-size: 1.2rem;
 }
